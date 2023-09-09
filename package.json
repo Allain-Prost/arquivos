@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "test:dev" : "mocha ./src/test/**.test.js",
-    "tst:node": "node ./src/test/testFile.test.js"
+    "test:binary" : "mocha ./src/test/validateAPointRecordInAFileSuccessfullyBinary.test.js",
+    "test:noBinary" : "mocha ./src/test/validateAPointRecordInAFileSuccessfully.test.js"
   },
   "keywords": [],
   "author": "",
