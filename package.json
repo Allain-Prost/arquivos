@@ -1,0 +1,21 @@
+{
+  "name": "arquivos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:dev" : "mocha ./src/test/**.test.js",
+    "tst:node": "node ./src/test/testFile.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "pactum": "^3.5.1"
+  },
+  "dependencies": {
+    "chai": "^4.3.8"
+  }
+}
